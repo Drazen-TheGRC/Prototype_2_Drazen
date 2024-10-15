@@ -352,6 +352,7 @@ GameObject:
   - component: {fileID: 8820995524523546058}
   - component: {fileID: 304402835452329946}
   - component: {fileID: 2790560492375842308}
+  - component: {fileID: 3987663575227600308}
   m_Layer: 0
   m_Name: Doe
   m_TagString: Untagged
@@ -430,6 +431,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ac2de5f43a8ae64eb0dc82f02f14379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &3987663575227600308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096548047421986601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1297607, y: 0.3652369, z: 0.39595157}
+  m_Center: {x: 0.001706326, y: 0.18087342, z: 0.04607129}
 --- !u!1 &3623044624296085348
 GameObject:
   m_ObjectHideFlags: 0

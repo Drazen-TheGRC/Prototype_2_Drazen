@@ -585,6 +585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b895d27a258d0424d95b0ba69b8532ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  foodPrefabProjectile: {fileID: 4072874593949035245, guid: 6aa78272bb0576043b88b7a1b1f8c3fd, type: 3}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0

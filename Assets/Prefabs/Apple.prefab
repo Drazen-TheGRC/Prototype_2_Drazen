@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2251252271704123182}
   - component: {fileID: 7243275426663159603}
   m_Layer: 0
-  m_Name: Food_Organic_Apple_03
+  m_Name: Apple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float zMax;
 
     public GameObject foodPrefabProjectile;
+    public Transform foodPrefabProjectileSpawnPoint;
 
     // Start is called before the first frame update
     void Start()
@@ -57,7 +58,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Launch a food projectile from the player
-            Instantiate(foodPrefabProjectile, transform.position, foodPrefabProjectile.transform.rotation);
+            Instantiate(foodPrefabProjectile, foodPrefabProjectileSpawnPoint.position, foodPrefabProjectile.transform.rotation);
 
         }
     }
